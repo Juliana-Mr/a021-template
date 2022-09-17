@@ -3,23 +3,34 @@
   margin: 0;
 }
 header{
+  background-color:goldenrod;
+}
+
+main{
+ height: 131vh;
+  background-color:brown;
+  font-family: Helvetica;
   
 }
 
 section{
   float: left;
 /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  width: 840px;
-  padding: 40px;
+  
+width: 50vw;
+  padding: 20px;;
+  background-color:darkgoldenrod;
 }
 
 aside{
   float:right;
  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
   padding: 20px;
-  width: 340px;
+  width: 50vw;
+  background-color: goldenrod;
 }
 
 article{
   margin: 10px 0;
+  background-color: brown;
 }
